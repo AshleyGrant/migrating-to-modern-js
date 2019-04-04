@@ -44,8 +44,6 @@ export class Welcome {
         }
 
         this.element.querySelector('form').addEventListener('submit', this.submitHandler);
-
-        setTimeout(() => this.firstName = 'Krista', 5000);
     }
     deactivate() {
         // tear stuff down
