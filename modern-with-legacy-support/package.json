@@ -1,0 +1,22 @@
+{
+  "name": "play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src -d dist --source-maps inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-modules-amd": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "babel-plugin-module-extension": "^0.1.1"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4"
+  }
+}
